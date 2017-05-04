@@ -10,20 +10,21 @@
 6.按下：ctrl +c 退出服务；
 
 
-
-
 二、安装nginx:
 1.在项目端根目录下输入：sudo apt-get install nginx 即可以完成安装；
 2.如何开启：
   2.1 输入cd /etc/nginx
   2.2 输入 ls
   2.3 输入  cd sites-enabled
-  2.4 输入 ls 
-  2.5 输入  vim default
-  2.6 输入 service nginx restart 
-  2.7 输入 sudo vim default
+  2.4 输入 ls
+  2.5 输入 sudo vim default
   2.7 打开nginx.conf 把端口复制进去保存
+  找到复制的位置，按i,然后就可以插入内容， 然后按esc退出编辑，然后输入：wq回车
   2.9更改项目的指向路径
+  2.6 输入 service nginx restart 
+  
+
+  
 
 
 
